@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: italic;
+ margin: 0 auto;
+ background-color:
+}
+
+h1{
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 50px;
+  color: #000;
+}
+
+header{
+  width: 100%;
+}
+
+nav{
+  margin: 20px auto;
+  width: 90%;
+  max-width:1000px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+#menu-icon {
+ display: none;
+ font-size: 50px;
+}
+
+#menu-icon {
+  display: inline-block;
+}
+nav > ul{
+  display: table;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  position: relative;
+}
+
+nav > ul li{
+  display: table-cell;
+}
+
+/*submenu*/
+nav > ul > li:hover > ul {
+  display:block;
+  height: 50%;
+  color: #9fbc47;
+}
+
+nav > ul > li > ul {
+  display: block;
+  position:relative;
+  background: #fff;
+  color: #9fbc47;
+  left: 0;
+  height: 0;
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+
+}
+
+nav > ul > li > ul {
+display: none;}
+
+nav > ul li a{
+  color:#000;
+  display: block;
+  line-height: 20px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover{
+
+  background:#9fbc47;
+}
+
+nav > ul >li >a span{
+  background: #174459;
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top:-55px;
+}
+
+.fa{
+  color:#fff;
+}
+
+nav > ul >li >a span .fa{
+  display: block;
+  line-height:60px
+}
+
+nav > ul >li >a:hover > span{
+
+top:0;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+
+}
+
+/*color*/
+
+nav ul  li  a .primero{
+  background: #9fbc47;
+}
+
+nav ul li a .segudo{
+  background: #9fbc47;
+}
+
+nav ul li a .tercero{
+  background: #9fbc47;
+}
+
+nav ul li a .cuarto{
+  background: #9fbc47;
+}
+
+nav ul li a .quinto{
+  background: #9fbc47;
+}
+
+.linea{
+  background: #000;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+.slider img {
+ width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+ text-align:center;
+}
